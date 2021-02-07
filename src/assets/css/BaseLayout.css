@@ -1,0 +1,11 @@
+.base-layout {
+  background-color: var(--color-black);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: auto;
+  width: 100%;
+}

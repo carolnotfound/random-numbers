@@ -1,0 +1,32 @@
+.base-card {
+  box-shadow: var(--box-shadow-default);
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: auto;
+  max-width: 300px;
+  width: 100%;
+}
+
+.base-card header {
+  background-color: var(--color-gray);
+  border-top-left-radius: var(--border-default);
+  border-top-right-radius: var(--border-default);
+  color: var(--color-yellow);
+
+  padding: var(--padding-default);
+  width: 100%;
+}
+
+.base-card section {
+  background-color: var(--color-yellow);
+  border-bottom-left-radius: var(--border-default);
+  border-bottom-right-radius: var(--border-default);
+  
+  padding: var(--padding-default);
+  width: 100%;
+}
